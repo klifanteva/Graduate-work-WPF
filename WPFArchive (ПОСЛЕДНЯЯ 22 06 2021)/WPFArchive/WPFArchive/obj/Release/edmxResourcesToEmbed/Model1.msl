@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище archiveModelContainer" CdmEntityContainer="archiveEntities">
+    <EntitySetMapping Name="access">
+      <EntityTypeMapping TypeName="archiveModel.access">
+        <MappingFragment StoreEntitySet="access">
+          <ScalarProperty Name="idAccess" ColumnName="idAccess" />
+          <ScalarProperty Name="nameAccess" ColumnName="nameAccess" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="categoryOfSet">
+      <EntityTypeMapping TypeName="archiveModel.categoryOfSet">
+        <MappingFragment StoreEntitySet="categoryOfSet">
+          <ScalarProperty Name="idCatOfSet" ColumnName="idCatOfSet" />
+          <ScalarProperty Name="nameCatOfSet" ColumnName="nameCatOfSet" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="collectionProfile">
+      <EntityTypeMapping TypeName="archiveModel.collectionProfile">
+        <MappingFragment StoreEntitySet="collectionProfile">
+          <ScalarProperty Name="idColProf" ColumnName="idColProf" />
+          <ScalarProperty Name="nameColProf" ColumnName="nameColProf" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cupboard">
+      <EntityTypeMapping TypeName="archiveModel.cupboard">
+        <MappingFragment StoreEntitySet="cupboard">
+          <ScalarProperty Name="idCupboard" ColumnName="idCupboard" />
+          <ScalarProperty Name="nameCupboard" ColumnName="nameCupboard" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="document">
+      <EntityTypeMapping TypeName="archiveModel.document">
+        <MappingFragment StoreEntitySet="document">
+          <ScalarProperty Name="idDoc" ColumnName="idDoc" />
+          <ScalarProperty Name="documentType_idDocType" ColumnName="documentType_idDocType" />
+          <ScalarProperty Name="setOfDocs_idSet" ColumnName="setOfDocs_idSet" />
+          <ScalarProperty Name="nomenclature_idNom" ColumnName="nomenclature_idNom" />
+          <ScalarProperty Name="dateDoc" ColumnName="dateDoc" />
+          <ScalarProperty Name="numberDoc" ColumnName="numberDoc" />
+          <ScalarProperty Name="filePath" ColumnName="filePath" />
+          <ScalarProperty Name="sheetsCount" ColumnName="sheetsCount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="documentType">
+      <EntityTypeMapping TypeName="archiveModel.documentType">
+        <MappingFragment StoreEntitySet="documentType">
+          <ScalarProperty Name="idDocType" ColumnName="idDocType" />
+          <ScalarProperty Name="nameDocType" ColumnName="nameDocType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="event_logbook">
+      <EntityTypeMapping TypeName="archiveModel.event_logbook">
+        <MappingFragment StoreEntitySet="event_logbook">
+          <ScalarProperty Name="idEvent_logbook" ColumnName="idEvent_logbook" />
+          <ScalarProperty Name="typeOfEvent_idTypeOfEvent" ColumnName="typeOfEvent_idTypeOfEvent" />
+          <ScalarProperty Name="organization_idOrg" ColumnName="organization_idOrg" />
+          <ScalarProperty Name="dateOfEvent" ColumnName="dateOfEvent" />
+          <ScalarProperty Name="result" ColumnName="result" />
+          <ScalarProperty Name="responsibleOfEvent" ColumnName="responsibleOfEvent" />
+          <ScalarProperty Name="done" ColumnName="done" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="heating">
+      <EntityTypeMapping TypeName="archiveModel.heating">
+        <MappingFragment StoreEntitySet="heating">
+          <ScalarProperty Name="idHeating" ColumnName="idHeating" />
+          <ScalarProperty Name="nameHeating" ColumnName="nameHeating" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="nomenclature">
+      <EntityTypeMapping TypeName="archiveModel.nomenclature">
+        <MappingFragment StoreEntitySet="nomenclature">
+          <ScalarProperty Name="idNom" ColumnName="idNom" />
+          <ScalarProperty Name="organization_idOrg" ColumnName="organization_idOrg" />
+          <ScalarProperty Name="actIndex" ColumnName="actIndex" />
+          <ScalarProperty Name="actHeading" ColumnName="actHeading" />
+          <ScalarProperty Name="yearNom" ColumnName="yearNom" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="organization">
+      <EntityTypeMapping TypeName="archiveModel.organization">
+        <MappingFragment StoreEntitySet="organization">
+          <ScalarProperty Name="idOrg" ColumnName="idOrg" />
+          <ScalarProperty Name="receivingForm_idRecForm" ColumnName="receivingForm_idRecForm" />
+          <ScalarProperty Name="collectionProfile_idColProf" ColumnName="collectionProfile_idColProf" />
+          <ScalarProperty Name="ownForm_idOwnForm" ColumnName="ownForm_idOwnForm" />
+          <ScalarProperty Name="nameOrg" ColumnName="nameOrg" />
+          <ScalarProperty Name="foundationDate" ColumnName="foundationDate" />
+          <ScalarProperty Name="adress" ColumnName="adress" />
+          <ScalarProperty Name="curator" ColumnName="curator" />
+          <ScalarProperty Name="nameDirector" ColumnName="nameDirector" />
+          <ScalarProperty Name="phoneDirector" ColumnName="phoneDirector" />
+          <ScalarProperty Name="emailDirector" ColumnName="emailDirector" />
+          <ScalarProperty Name="nameRespPers" ColumnName="nameRespPers" />
+          <ScalarProperty Name="phoneRespPers" ColumnName="phoneRespPers" />
+          <ScalarProperty Name="emailRespPers" ColumnName="emailRespPers" />
+          <ScalarProperty Name="isSource" ColumnName="isSource" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="organizationArchive">
+      <EntityTypeMapping TypeName="archiveModel.organizationArchive">
+        <MappingFragment StoreEntitySet="organizationArchive">
+          <ScalarProperty Name="idOrgArchive" ColumnName="idOrgArchive" />
+          <ScalarProperty Name="heating_idHeating" ColumnName="heating_idHeating" />
+          <ScalarProperty Name="shelving_idShelving" ColumnName="shelving_idShelving" />
+          <ScalarProperty Name="cupboard_idCupboard" ColumnName="cupboard_idCupboard" />
+          <ScalarProperty Name="organization_idOrg" ColumnName="organization_idOrg" />
+          <ScalarProperty Name="fundCount" ColumnName="fundCount" />
+          <ScalarProperty Name="storageSquare" ColumnName="storageSquare" />
+          <ScalarProperty Name="filledCapacityPercent" ColumnName="filledCapacityPercent" />
+          <ScalarProperty Name="employeeCount" ColumnName="employeeCount" />
+          <ScalarProperty Name="timeOfStorage" ColumnName="timeOfStorage" />
+          <ScalarProperty Name="storageDescription" ColumnName="storageDescription" />
+          <ScalarProperty Name="storageExistence" ColumnName="storageExistence" />
+          <ScalarProperty Name="fireAlarm" ColumnName="fireAlarm" />
+          <ScalarProperty Name="securityAlarm" ColumnName="securityAlarm" />
+          <ScalarProperty Name="tempAndCoolConditions" ColumnName="tempAndCoolConditions" />
+          <ScalarProperty Name="pathAboutArchive" ColumnName="pathAboutArchive" />
+          <ScalarProperty Name="pathExpertCommission" ColumnName="pathExpertCommission" />
+          <ScalarProperty Name="pathInstruction" ColumnName="pathInstruction" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ownForm">
+      <EntityTypeMapping TypeName="archiveModel.ownForm">
+        <MappingFragment StoreEntitySet="ownForm">
+          <ScalarProperty Name="idOwnForm" ColumnName="idOwnForm" />
+          <ScalarProperty Name="nameOwnForm" ColumnName="nameOwnForm" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="receivingForm">
+      <EntityTypeMapping TypeName="archiveModel.receivingForm">
+        <MappingFragment StoreEntitySet="receivingForm">
+          <ScalarProperty Name="idRecForm" ColumnName="idRecForm" />
+          <ScalarProperty Name="nameRecForm" ColumnName="nameRecForm" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="renamesOfOrganization">
+      <EntityTypeMapping TypeName="archiveModel.renamesOfOrganization">
+        <MappingFragment StoreEntitySet="renamesOfOrganization">
+          <ScalarProperty Name="idNameOfOrganization" ColumnName="idNameOfOrganization" />
+          <ScalarProperty Name="organization_idOrg" ColumnName="organization_idOrg" />
+          <ScalarProperty Name="nameRenamed" ColumnName="nameRenamed" />
+          <ScalarProperty Name="startDate" ColumnName="startDate" />
+          <ScalarProperty Name="endDate" ColumnName="endDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="setOfDocs">
+      <EntityTypeMapping TypeName="archiveModel.setOfDocs">
+        <MappingFragment StoreEntitySet="setOfDocs">
+          <ScalarProperty Name="idSet" ColumnName="idSet" />
+          <ScalarProperty Name="organization_idOrg" ColumnName="organization_idOrg" />
+          <ScalarProperty Name="categoryOfSet_idCatOfSet" ColumnName="categoryOfSet_idCatOfSet" />
+          <ScalarProperty Name="access_idAccess" ColumnName="access_idAccess" />
+          <ScalarProperty Name="startDate" ColumnName="startDate" />
+          <ScalarProperty Name="endDate" ColumnName="endDate" />
+          <ScalarProperty Name="numberSet" ColumnName="numberSet" />
+          <ScalarProperty Name="copies" ColumnName="copies" />
+          <ScalarProperty Name="nameOfSet" ColumnName="nameOfSet" />
+          <ScalarProperty Name="reasonOfClosedAccess" ColumnName="reasonOfClosedAccess" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="shelving">
+      <EntityTypeMapping TypeName="archiveModel.shelving">
+        <MappingFragment StoreEntitySet="shelving">
+          <ScalarProperty Name="idShelving" ColumnName="idShelving" />
+          <ScalarProperty Name="nameShelving" ColumnName="nameShelving" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="typeOfEvent">
+      <EntityTypeMapping TypeName="archiveModel.typeOfEvent">
+        <MappingFragment StoreEntitySet="typeOfEvent">
+          <ScalarProperty Name="idTypeOfEvent" ColumnName="idTypeOfEvent" />
+          <ScalarProperty Name="nameTypeOfEvent" ColumnName="nameTypeOfEvent" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="DocumentsOfSet_Select" FunctionName="Хранилище archiveModel.DocumentsOfSet_Select">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="archiveModel.DocumentsOfSet_Select_Result">
+          <ScalarProperty Name="idDoc" ColumnName="idDoc" />
+          <ScalarProperty Name="numberDoc" ColumnName="numberDoc" />
+          <ScalarProperty Name="idNom" ColumnName="idNom" />
+          <ScalarProperty Name="actIndex" ColumnName="actIndex" />
+          <ScalarProperty Name="actHeading" ColumnName="actHeading" />
+          <ScalarProperty Name="sheetsCount" ColumnName="sheetsCount" />
+          <ScalarProperty Name="dateDoc" ColumnName="dateDoc" />
+          <ScalarProperty Name="nameDocType" ColumnName="nameDocType" />
+          <ScalarProperty Name="filePath" ColumnName="filePath" />
+          <ScalarProperty Name="setOfDocs_idSet" ColumnName="setOfDocs_idSet" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="Nomenclature_ForOrgAndYear" FunctionName="Хранилище archiveModel.Nomenclature_ForOrgAndYear">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="archiveModel.Nomenclature_ForOrgAndYear_Result">
+          <ScalarProperty Name="idNom" ColumnName="idNom" />
+          <ScalarProperty Name="organization_idOrg" ColumnName="organization_idOrg" />
+          <ScalarProperty Name="actIndex" ColumnName="actIndex" />
+          <ScalarProperty Name="actHeading" ColumnName="actHeading" />
+          <ScalarProperty Name="yearNom" ColumnName="yearNom" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="Nomenclature_Select" FunctionName="Хранилище archiveModel.Nomenclature_Select">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="archiveModel.Nomenclature_Select_Result">
+          <ScalarProperty Name="idNom" ColumnName="idNom" />
+          <ScalarProperty Name="actIndex" ColumnName="actIndex" />
+          <ScalarProperty Name="actHeading" ColumnName="actHeading" />
+          <ScalarProperty Name="yearNom" ColumnName="yearNom" />
+          <ScalarProperty Name="nameOrg" ColumnName="nameOrg" />
+          <ScalarProperty Name="organization_idOrg" ColumnName="organization_idOrg" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SelectEventLogbookForOrg" FunctionName="Хранилище archiveModel.SelectEventLogbookForOrg">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="archiveModel.SelectEventLogbookForOrg_Result">
+          <ScalarProperty Name="done" ColumnName="done" />
+          <ScalarProperty Name="idEvent_logbook" ColumnName="idEvent_logbook" />
+          <ScalarProperty Name="typeOfEvent_idTypeOfEvent" ColumnName="typeOfEvent_idTypeOfEvent" />
+          <ScalarProperty Name="nameTypeOfEvent" ColumnName="nameTypeOfEvent" />
+          <ScalarProperty Name="organization_idOrg" ColumnName="organization_idOrg" />
+          <ScalarProperty Name="nameOrg" ColumnName="nameOrg" />
+          <ScalarProperty Name="dateOfEvent" ColumnName="dateOfEvent" />
+          <ScalarProperty Name="result" ColumnName="result" />
+          <ScalarProperty Name="responsibleOfEvent" ColumnName="responsibleOfEvent" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SelectOrgForMainForm" FunctionName="Хранилище archiveModel.SelectOrgForMainForm">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="archiveModel.SelectOrgForMainForm_Result">
+          <ScalarProperty Name="idOrg" ColumnName="idOrg" />
+          <ScalarProperty Name="nameOrg" ColumnName="nameOrg" />
+          <ScalarProperty Name="nameOwnForm" ColumnName="nameOwnForm" />
+          <ScalarProperty Name="nameRecForm" ColumnName="nameRecForm" />
+          <ScalarProperty Name="minDateUD" ColumnName="minDateUD" />
+          <ScalarProperty Name="minDateLS" ColumnName="minDateLS" />
+          <ScalarProperty Name="maxDateUD" ColumnName="maxDateUD" />
+          <ScalarProperty Name="maxDateLS" ColumnName="maxDateLS" />
+          <ScalarProperty Name="lastControl" ColumnName="lastControl" />
+          <ScalarProperty Name="isSource" ColumnName="isSource" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SelectRenameForOrg" FunctionName="Хранилище archiveModel.SelectRenameForOrg">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="archiveModel.SelectRenameForOrg_Result">
+          <ScalarProperty Name="idNameOfOrganization" ColumnName="idNameOfOrganization" />
+          <ScalarProperty Name="organization_idOrg" ColumnName="organization_idOrg" />
+          <ScalarProperty Name="nameOrg" ColumnName="nameOrg" />
+          <ScalarProperty Name="nameRenamed" ColumnName="nameRenamed" />
+          <ScalarProperty Name="startDate" ColumnName="startDate" />
+          <ScalarProperty Name="endDate" ColumnName="endDate" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SetOfDocs_Select" FunctionName="Хранилище archiveModel.SetOfDocs_Select">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="archiveModel.SetOfDocs_Select_Result">
+          <ScalarProperty Name="idSet" ColumnName="idSet" />
+          <ScalarProperty Name="numberSet" ColumnName="numberSet" />
+          <ScalarProperty Name="nameOfSet" ColumnName="nameOfSet" />
+          <ScalarProperty Name="categoryOfSet_idCatOfSet" ColumnName="categoryOfSet_idCatOfSet" />
+          <ScalarProperty Name="nameCatOfSet" ColumnName="nameCatOfSet" />
+          <ScalarProperty Name="nameOrg" ColumnName="nameOrg" />
+          <ScalarProperty Name="startDate" ColumnName="startDate" />
+          <ScalarProperty Name="endDate" ColumnName="endDate" />
+          <ScalarProperty Name="nameAccess" ColumnName="nameAccess" />
+          <ScalarProperty Name="reasonOfClosedAccess" ColumnName="reasonOfClosedAccess" />
+          <ScalarProperty Name="docCount" ColumnName="docCount" />
+          <ScalarProperty Name="sheetsCount" ColumnName="sheetsCount" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,172 @@
+﻿<Window x:Class="WPFArchive.View.OrganizationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFArchive.View" xmlns:viewmodel="clr-namespace:WPFArchive.ViewModel"
+        d:DataContext="{d:DesignInstance Type=viewmodel:OrganizationViewModel}"
+        mc:Ignorable="d" xmlns:extensions="using:Microsoft.Toolkit.Uwp.UI.Extensions"
+        Title="OrganizationWindow" Height="788.6" Width="890" Activated="Window_Activated_1">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="173*"/>
+            <ColumnDefinition Width="564*"/>
+            <ColumnDefinition Width="145*"/>
+        </Grid.ColumnDefinitions>
+        <TabControl x:Name="tabControl" Margin="0,80,0,0" Grid.ColumnSpan="3">
+            <TabItem x:Name="item1" Header="Общие сведения" Height="22" VerticalAlignment="Top">
+                <Grid Background="White" Height="610" x:Name="newOrgGrid">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="32*"/>
+                        <ColumnDefinition Width="187*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label x:Name="label" Content="Название организации" HorizontalAlignment="Left" Margin="10,37,0,0" VerticalAlignment="Top" FontWeight="Bold" Grid.ColumnSpan="2"/>
+                    <Label x:Name="label1" Content="Дата образования" HorizontalAlignment="Left" Margin="36,85,0,0" VerticalAlignment="Top" FontWeight="Bold" Grid.ColumnSpan="2"/>
+                    <Label x:Name="label2" Content="Адрес" HorizontalAlignment="Left" Margin="104,126,0,0" VerticalAlignment="Top" FontWeight="Bold" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="nameOrg_textBox" HorizontalAlignment="Left" Height="36" Margin="37,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="649"
+                             Text="{Binding NameOrg}" Grid.Column="1"/>
+                    <DatePicker x:Name="foundDate_datePicker" HorizontalAlignment="Left" Margin="37,87,0,0" VerticalAlignment="Top" Width="169"
+                                SelectedDate="{Binding FoundationDate}" Grid.Column="1"/>
+                    <TextBox x:Name="adress_textBox" HorizontalAlignment="Left" Height="50" Margin="37,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="420"
+                             Text="{Binding Adress}" Grid.Column="1"/>
+                    <Border BorderBrush="SteelBlue" BorderThickness="1" HorizontalAlignment="Left" Height="138" Margin="65,190,0,0" VerticalAlignment="Top" Width="520" Grid.ColumnSpan="2">
+                        <Grid>
+                            <Label x:Name="label3" Content="Руководитель" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+                            <Label x:Name="label4" Content="ФИО" HorizontalAlignment="Left" Margin="59,34,0,0" VerticalAlignment="Top"/>
+                            <Label x:Name="label5" Content="Телефон" HorizontalAlignment="Left" Margin="39,65,0,0" VerticalAlignment="Top"/>
+                            <Label x:Name="label6" Content="Email" HorizontalAlignment="Left" Margin="58,96,0,0" VerticalAlignment="Top"/>
+                            <TextBox x:Name="directorName_textBox" HorizontalAlignment="Left" Height="23" Margin="101,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="407"
+                                     Text="{Binding NameDirector, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}"/>
+                            <TextBox x:Name="directorEmail_textBox" HorizontalAlignment="Left" Height="23" Margin="101,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="198" Text="{Binding EmailDirector, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}"/>
+                            <TextBox x:Name="directorPhone_textBox" HorizontalAlignment="Left" Height="23" Margin="101,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="198" MaxLength="{Binding MaxPhoneLength}"  Text="{Binding PhoneDirector, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" />
+                        </Grid>
+                    </Border>
+                    <Border BorderBrush="SteelBlue" BorderThickness="1" HorizontalAlignment="Left" Height="138" Margin="65,341,0,0" VerticalAlignment="Top" Width="520" Grid.ColumnSpan="2">
+                        <Grid>
+                            <Label x:Name="label8" Content="Ответственный за архив" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+                            <Label x:Name="label41" Content="ФИО" HorizontalAlignment="Left" Margin="59,34,0,0" VerticalAlignment="Top"/>
+                            <Label x:Name="label51" Content="Телефон" HorizontalAlignment="Left" Margin="39,65,0,0" VerticalAlignment="Top"/>
+                            <Label x:Name="label61" Content="Email" HorizontalAlignment="Left" Margin="58,96,0,0" VerticalAlignment="Top"/>
+                            <TextBox x:Name="respPersonName_textBox" HorizontalAlignment="Left" Height="23" Margin="101,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="407"
+                                     Text="{Binding NameRespPers, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}"/>
+                            <TextBox x:Name="respPersonEmail_textBox" HorizontalAlignment="Left" Height="23" Margin="101,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="198"
+                                     Text="{Binding EmailRespPers, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}"/>
+                            <TextBox x:Name="respPersPhone_textBox" HorizontalAlignment="Left" Height="23" Margin="101,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="198"
+                                     Text="{Binding PhoneRespPers, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}"/>
+                        </Grid>
+                    </Border>
+                    <Label x:Name="label7" Content="Куратор" HorizontalAlignment="Left" Margin="97,496,0,0" VerticalAlignment="Top" FontWeight="Bold" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="curator_textBox" HorizontalAlignment="Left" Height="23" Margin="35,499,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="420"
+                             Text="{Binding Curator, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Grid.Column="1"/>
+                    <Label x:Name="label9" Content="Форма собственности" HorizontalAlignment="Left" Margin="546,97,0,0" VerticalAlignment="Top" FontWeight="Bold" Grid.Column="1"/>
+                    <Label x:Name="label10" Content="Форма приема документов" HorizontalAlignment="Left" Margin="531,201,0,0" VerticalAlignment="Top" FontWeight="Bold" Grid.Column="1"/>
+                    <Label x:Name="label11" Content="Профиль комплектования" HorizontalAlignment="Left" Margin="537,310,0,0" VerticalAlignment="Top" FontWeight="Bold" Grid.Column="1"/>
+                    <ComboBox ItemsSource="{Binding OwnForms}" DisplayMemberPath="nameOwnForm" SelectedValuePath="idOwnForm" SelectedValue="{Binding IdOwnForm}" HorizontalAlignment="Left" Margin="537,128,0,0" VerticalAlignment="Top" Width="153" Grid.Column="1"/>
+                    <ComboBox ItemsSource="{Binding RecForms}" DisplayMemberPath="nameRecForm" SelectedValuePath="idRecForm" SelectedValue="{Binding IdRecForm}" HorizontalAlignment="Left" Margin="537,232,0,0" VerticalAlignment="Top" Width="153" Grid.Column="1"/>
+                    <ComboBox ItemsSource="{Binding ColProfs}" DisplayMemberPath="nameColProf" SelectedValuePath="idColProf" SelectedValue="{Binding IdColProf}" HorizontalAlignment="Left" Margin="537,341,0,0" VerticalAlignment="Top" Width="153" Grid.Column="1"/>
+                    <Button x:Name="saveOrgButton" Content="Сохранить" HorizontalAlignment="Left" Margin="558,514,0,0" VerticalAlignment="Top" Width="128" Height="38" Background="LightSteelBlue" Command="{Binding SaveOrgCommand}" Grid.Column="1"/>
+                    <CheckBox x:Name="checkBox" IsChecked="{Binding IsSource}" HorizontalAlignment="Left" Margin="27,0,0,0" VerticalAlignment="Top" Width="263" Height="32" Grid.ColumnSpan="2">
+                        <TextBox x:Name="textBox" Height="27" TextWrapping="Wrap" Text="Является источником комплектования" Width="239" FontWeight="Bold" Background="{DynamicResource {x:Static SystemColors.InactiveCaptionBrushKey}}"/>
+                    </CheckBox>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="item2" Header="Архив организации">
+                <Grid Background="White">
+                    <CheckBox IsChecked="{Binding StorageExistence}" Content="Наличие архива в организации" x:Name="storageExistenceCheckBox" HorizontalAlignment="Left" Margin="29,36,0,0" VerticalAlignment="Top" Checked="StorageExistenceCheckBox_Changed" Unchecked="StorageExistenceCheckBox_Changed" />
+                    <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="462" Margin="29,76,0,0" VerticalAlignment="Top" Width="819">
+                        <Grid x:Name="storageExistsPanel" Height="476" VerticalAlignment="Top" Margin="0,0,0,-1">
+                            <Label Content="Тип отопления" HorizontalAlignment="Left" Margin="454,40,0,0" VerticalAlignment="Top"/>
+                            <Label Content="Тип стеллажей" HorizontalAlignment="Left" Margin="454,91,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.341,-7.308"/>
+                            <Label Content="Тип шкафов" HorizontalAlignment="Left" Margin="454,145,0,0" VerticalAlignment="Top"/>
+                            <Label Content="Описание хранилища" HorizontalAlignment="Left" Margin="33,374,0,0" VerticalAlignment="Top"/>
+                            <TextBlock HorizontalAlignment="Left" Margin="33,45,0,0" TextWrapping="Wrap" Text="Количество фондов" VerticalAlignment="Top" Height="43" Width="132"/>
+                            <TextBlock HorizontalAlignment="Left" Margin="33,89,0,0" TextWrapping="Wrap" Text="Площадь архивохранилища (м2)" VerticalAlignment="Top" Height="55" Width="132"/>
+                            <TextBlock HorizontalAlignment="Left" Margin="33,142,0,0" TextWrapping="Wrap" Text="Загруженность архивохранилища в %" VerticalAlignment="Top" Height="48" Width="132"/>
+                            <TextBlock HorizontalAlignment="Left" Margin="33,195,0,0" TextWrapping="Wrap" Text="Количество штатных работников" VerticalAlignment="Top" Height="55" Width="132"/>
+                            <TextBlock HorizontalAlignment="Left" Margin="33,248,0,0" TextWrapping="Wrap" Text="Срок ведомственного хранения (кол-во лет)" VerticalAlignment="Top" Height="67" Width="123"/>
+                            <CheckBox IsChecked="{Binding FireAlarm}" Content="Наличие пожарной сигнализации" HorizontalAlignment="Left" Margin="33,303,0,0" VerticalAlignment="Top"/>
+                            <CheckBox IsChecked="{Binding SecurityAlarm}" Content="Наличие охранной сигнализации" HorizontalAlignment="Left" Margin="33,323,0,0" VerticalAlignment="Top"/>
+                            <CheckBox IsChecked="{Binding TempAndCoolConditions}" Content="Соблюдение температурно-влаждностного режима" HorizontalAlignment="Left" Margin="33,343,0,0" VerticalAlignment="Top"/>
+                            <TextBox Text="{Binding FundCount}" HorizontalAlignment="Left" Height="23" Margin="181,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                            <TextBox Text="{Binding StorageSquare}" HorizontalAlignment="Left" Height="23" Margin="181,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.492,0.522"/>
+                            <TextBox Text="{Binding FilledCapacityPercent}" HorizontalAlignment="Left" Height="23" Margin="181,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                            <TextBox Text="{Binding EmployeeCount}" HorizontalAlignment="Left" Height="23" Margin="181,202,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                            <TextBox Text="{Binding TimeOfStorage}" HorizontalAlignment="Left" Height="24" Margin="181,254,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                            <ComboBox ItemsSource="{Binding Heatings}" DisplayMemberPath="nameHeating" SelectedValuePath="idHeating" SelectedValue="{Binding Heating}" HorizontalAlignment="Left" Margin="551,44,0,0" VerticalAlignment="Top" Width="160"/>
+                            <ComboBox ItemsSource="{Binding Shelvings}" DisplayMemberPath="nameShelving" SelectedValuePath="idShelving" SelectedValue="{Binding Shelving}" HorizontalAlignment="Left" Margin="551,95,0,0" VerticalAlignment="Top" Width="160"/>
+                            <ComboBox ItemsSource="{Binding Cupboards}" DisplayMemberPath="nameCupboard" SelectedValuePath="idCupboard" SelectedValue="{Binding Cupboard}" HorizontalAlignment="Left" Margin="551,149,0,0" VerticalAlignment="Top" Width="160"/>
+                            <TextBox Text="{Binding StorageDescription}" HorizontalAlignment="Left" Height="48" Margin="68,400,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="273"/>
+                            <Button Command="{Binding AddAboutArchiveCommand}" HorizontalAlignment="Left" Margin="551,238,0,198" Width="70" Background="#FF7D838B">
+                                <TextBlock x:Name="aboutArchAdd_textBlock" TextWrapping="Wrap" Text="Прикрепить файл" FontSize="11" TextAlignment="Center"/>
+                            </Button>
+                            <TextBlock HorizontalAlignment="Left" Margin="414,248,0,0" TextWrapping="Wrap" Text="Положение об архиве" VerticalAlignment="Top" Height="21" Width="132" TextAlignment="Right"/>
+                            <TextBlock HorizontalAlignment="Left" Margin="414,297,0,0" TextWrapping="Wrap" Text="Положение об ЭК" VerticalAlignment="Top" Height="21" Width="132" TextAlignment="Right"/>
+                            <TextBlock HorizontalAlignment="Left" Margin="414,345,0,0" TextWrapping="Wrap" Text="Инструкция по делопроизводству" VerticalAlignment="Top" Height="36" Width="132" TextAlignment="Right"/>
+                            <Button Command="{Binding AddExpertFileCommand}" HorizontalAlignment="Left" Margin="551,285,0,151" Width="70" Background="#FF7D838B">
+                                <TextBlock x:Name="expertCommAdd_textBlock" TextWrapping="Wrap" Text="Прикрепить файл" TextAlignment="Center" FontSize="11"/>
+                            </Button>
+                            <Button Command="{Binding AddInstructionFileCommand}" HorizontalAlignment="Left" Margin="551,343,0,93" Width="70" Background="#FF7D838B">
+                                <TextBlock x:Name="instructionAdd_textBlock" TextWrapping="Wrap" Text="Прикрепить файл" TextAlignment="Center" FontSize="11"/>
+                            </Button>
+                            <Button Command="{Binding DeleteAboutArchiveCommand}" HorizontalAlignment="Left" Margin="714,238,0,198" Width="70" Background="#FF7D838B" x:Name="aboutArchDelete_Button" >
+                                <TextBlock x:Name="textBlock3" TextWrapping="Wrap" Text="Удалить файл" TextAlignment="Center"/>
+                            </Button>
+                            <Button Command="{Binding DeleteExpertFileCommand}" HorizontalAlignment="Left" Margin="714,285,0,151" Width="70" Background="#FF7D838B" x:Name="expertCommDelete_Button">
+                                <TextBlock x:Name="textBlock4" TextWrapping="Wrap" Text="Удалить файл" TextAlignment="Center"/>
+                            </Button>
+                            <Button Command="{Binding DeleteInstructionFileCommand}" HorizontalAlignment="Left" Margin="714,343,0,93" Width="70" Background="#FF7D838B" x:Name="instructionDelete_Button">
+                                <TextBlock x:Name="textBlock5" TextWrapping="Wrap" Text="Удалить файл" TextAlignment="Center"/>
+                            </Button>
+                            <Button Command="{Binding OpenAboutArchiveCommand}" HorizontalAlignment="Left" Margin="632,238,0,198" Width="70" Background="SteelBlue" x:Name="aboutArchOpen_Button">
+                                <TextBlock x:Name="textBlock6" TextWrapping="Wrap" Text="Открыть"/>
+                            </Button>
+                            <Button Command="{Binding OpenExpertFileCommand}" HorizontalAlignment="Left" Margin="632,285,0,151" Width="70" Background="SteelBlue" x:Name="expertCommOpen_Button">
+                                <TextBlock x:Name="textBlock7" TextWrapping="Wrap" Text="Открыть"/>
+                            </Button>
+                            <Button Command="{Binding OpenInstructionFileCommand}" HorizontalAlignment="Left" Margin="632,343,0,93" Width="70" Background="SteelBlue" x:Name="instructionOpen_Button">
+                                <TextBlock x:Name="textBlock8" TextWrapping="Wrap" Text="Открыть"/>
+                            </Button>
+
+                        </Grid>
+                    </Border>
+                    <Button Command="{Binding SaveArchiveOrgCommand}"  Content="Сохранить" HorizontalAlignment="Left" Margin="697,543,0,0" VerticalAlignment="Top" Width="130" Height="40" Background="LightSteelBlue"/>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="item3" Header="Мероприятия">
+                <Grid Background="White">
+                    <DataGrid x:Name="eventsGrid" SelectedItem="{Binding SelectedEvent}" HorizontalAlignment="Left" Height="440" Margin="10,10,0,0" VerticalAlignment="Top" Width="856" AutoGenerateColumns="True" AutoGeneratingColumn="DataGrid_AutoGeneratingColumn">
+                        <DataGrid.ItemContainerStyle>
+                            <Style TargetType="{x:Type DataGridRow}">
+                                <EventSetter Event="Control.MouseDoubleClick" Handler="EventRow_DoubleClick"/>
+                            </Style>
+                        </DataGrid.ItemContainerStyle>
+                    </DataGrid>
+                    <Button HorizontalAlignment="Left" Margin="736,462,0,0" VerticalAlignment="Top" Width="130" Height="40" Click="AddNewEvent_Click" Background="LightSteelBlue">
+                        <TextBlock Text="Добавить новое мероприятие" TextWrapping="Wrap" TextAlignment="Center"/>
+                    </Button>
+                    <Button Command="{Binding DeleteEventCommand}" HorizontalAlignment="Left" Margin="736,507,0,0" VerticalAlignment="Top" Width="130" Height="40" Background="LightSteelBlue">
+                        <TextBlock Text="Удалить выбранное мероприятие" TextWrapping="Wrap" TextAlignment="Center"/>
+                    </Button>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="item4" Header="Сведения о предыдущих названиях организации">
+                <Grid Background="White">
+                    <DataGrid SelectedItem="{Binding SelectedRename}" x:Name="renamesGrid" HorizontalAlignment="Left" Height="348" Margin="10,36,0,0" VerticalAlignment="Top" Width="856" AutoGenerateColumns="True" AutoGeneratingColumn="DataGrid_AutoGeneratingColumn">
+                        <DataGrid.ItemContainerStyle>
+                            <Style TargetType="{x:Type DataGridRow}">
+                                <EventSetter Event="Control.MouseDoubleClick" Handler="RenameRow_DoubleClick"/>
+                            </Style>
+                        </DataGrid.ItemContainerStyle>
+                    </DataGrid>
+                    <Button HorizontalAlignment="Left" Margin="697,422,0,0" VerticalAlignment="Top" Width="147" Height="46" Background="LightSteelBlue" Click="AddNewRename_Click">
+                        <TextBlock Text="Добавить запись о предыдущем названии" TextWrapping="Wrap" TextAlignment="Center"/>
+                    </Button>
+                    <Button Command="{Binding DeleteRenameCommand}" HorizontalAlignment="Left" Margin="697,473,0,0" VerticalAlignment="Top" Width="147" Height="46" Background="LightSteelBlue">
+                        <TextBlock Text="Удалить выделенную запись" TextWrapping="Wrap" TextAlignment="Center"/>
+                    </Button>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <TextBlock Text ="{Binding NameOrg}" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.ColumnSpan="3" Width="798" FontSize="14" FontWeight="Bold" Height="65" />
+    </Grid>
+</Window>

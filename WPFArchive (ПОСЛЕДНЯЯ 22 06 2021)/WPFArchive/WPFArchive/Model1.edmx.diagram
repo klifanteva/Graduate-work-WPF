@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c9e90d2b4c32412c82d807da1495fcbd" Name="Diagram1">
+        <EntityTypeShape EntityType="archiveModel.access" Width="1.5" PointX="8" PointY="20.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="archiveModel.categoryOfSet" Width="1.5" PointX="8" PointY="22.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="archiveModel.collectionProfile" Width="1.5" PointX="0.75" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="archiveModel.cupboard" Width="1.5" PointX="6" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="archiveModel.document" Width="1.5" PointX="7.5" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="archiveModel.documentType" Width="1.5" PointX="5.25" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="archiveModel.event_logbook" Width="1.5" PointX="5.25" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="archiveModel.heating" Width="1.5" PointX="6" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="archiveModel.nomenclature" Width="1.5" PointX="5.25" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="archiveModel.organization" Width="1.5" PointX="3" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="archiveModel.organizationArchive" Width="1.5" PointX="8.25" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="archiveModel.ownForm" Width="1.5" PointX="0.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="archiveModel.receivingForm" Width="1.5" PointX="0.75" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="archiveModel.renamesOfOrganization" Width="1.5" PointX="5.25" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="archiveModel.setOfDocs" Width="1.5" PointX="10.25" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="archiveModel.shelving" Width="1.5" PointX="6" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="archiveModel.typeOfEvent" Width="1.5" PointX="3" PointY="6.375" IsExpanded="true" />
+        <AssociationConnector Association="archiveModel.FK__setOfDocs__acces__43A1090D" ManuallyRouted="false" />
+        <AssociationConnector Association="archiveModel.FK__setOfDocs__categ__42ACE4D4" ManuallyRouted="false" />
+        <AssociationConnector Association="archiveModel.FK__organizat__colle__2A4B4B5E" ManuallyRouted="false" />
+        <AssociationConnector Association="archiveModel.FK__organizat__cupbo__3B40CD36" ManuallyRouted="false" />
+        <AssociationConnector Association="archiveModel.FK__organizat__cupbo__3C34F16F" ManuallyRouted="false" />
+        <AssociationConnector Association="archiveModel.FK__document__docume__689D8392" ManuallyRouted="false" />
+        <AssociationConnector Association="archiveModel.FK__document__nomenc__6C6E1476" ManuallyRouted="false" />
+        <AssociationConnector Association="archiveModel.FK__document__setOfD__6B79F03D" ManuallyRouted="false" />
+        <AssociationConnector Association="archiveModel.FK__event_log__organ__30C33EC3" ManuallyRouted="false" />
+        <AssociationConnector Association="archiveModel.FK__event_log__typeO__31B762FC" ManuallyRouted="false" />
+        <AssociationConnector Association="archiveModel.FK__organizat__heati__3D2915A8" ManuallyRouted="false" />
+        <AssociationConnector Association="archiveModel.FK__organizat__heati__3E1D39E1" ManuallyRouted="false" />
+        <AssociationConnector Association="archiveModel.FK__nomenclat__organ__473C8FC7" ManuallyRouted="false" />
+        <AssociationConnector Association="archiveModel.FK__organizat__organ__3F115E1A" ManuallyRouted="false" />
+        <AssociationConnector Association="archiveModel.FK__organizat__ownFo__29572725" ManuallyRouted="false" />
+        <AssociationConnector Association="archiveModel.FK__organizat__recei__286302EC" ManuallyRouted="false" />
+        <AssociationConnector Association="archiveModel.FK__renamesOf__organ__160F4887" ManuallyRouted="false" />
+        <AssociationConnector Association="archiveModel.FK__setOfDocs__organ__2022C2A6" ManuallyRouted="false" />
+        <AssociationConnector Association="archiveModel.FK__organizat__shelv__40058253" ManuallyRouted="false" />
+        <AssociationConnector Association="archiveModel.FK__organizat__shelv__40F9A68C" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

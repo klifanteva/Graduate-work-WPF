@@ -1,0 +1,44 @@
+﻿<Window x:Class="WPFArchive.View.NomenclatureWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFArchive.View" xmlns:viewmodel="clr-namespace:WPFArchive.ViewModel" d:DataContext="{d:DesignInstance Type=viewmodel:NomenclatureViewModel}"
+        mc:Ignorable="d" Height="754.5" Width="1000"
+        Title="Номенклатура дел" WindowState="Maximized">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <DataGrid x:Name="nom_dataGrid" ItemsSource="{Binding NomenclaturesForDataGrid}"   SelectedItem="{Binding SelectedNom}" Height="390" Margin="6,132,11,0" VerticalAlignment="Top" AutoGenerateColumns="True" AutoGeneratingColumn="DataGrid_AutoGeneratingColumn" IsReadOnly="True" SelectionChanged="nom_dataGrid_SelectionChanged" Grid.Column="1"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="40,0,0,161" TextWrapping="Wrap" Text="Индекс дела" VerticalAlignment="Bottom" FontWeight="Bold" TextAlignment="Right" Grid.Column="1" Height="16" Width="74"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="22,0,0,119" TextWrapping="Wrap" Text="Заголовок дела" VerticalAlignment="Bottom" FontWeight="Bold" TextAlignment="Right" Grid.Column="1" Height="16" Width="92"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="94,0,0,81" TextWrapping="Wrap" Text="Год" VerticalAlignment="Bottom" FontWeight="Bold" RenderTransformOrigin="1.866,0.501" Grid.Column="1" Height="16" Width="20"/>
+        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="12,0,0,33" TextWrapping="Wrap" Text="Источник комплектования" VerticalAlignment="Bottom" Width="102" FontWeight="Bold" TextAlignment="Right" Grid.Column="1" Height="32"/>
+        <TextBox x:Name="actIndex_textBox" HorizontalAlignment="Left" Height="24" Margin="119,0,0,154" TextWrapping="Wrap" Text="{Binding ActIndex}" VerticalAlignment="Bottom" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="actHeading_textBox" HorizontalAlignment="Left" Height="38" Margin="119,0,0,107" TextWrapping="Wrap" Text="{Binding ActHeading}" VerticalAlignment="Bottom" Width="616" Grid.Column="1"/>
+        <ComboBox x:Name="org_comboBox" ItemsSource="{Binding Organizations}" DisplayMemberPath="nameOrg" SelectedValuePath="idOrg" SelectedValue="{Binding IdOrg}" HorizontalAlignment="Left" Margin="119,0,0,33" VerticalAlignment="Bottom" Width="616" Height="32" Grid.Column="1"/>
+        <TextBox x:Name="yearNom_textBox" HorizontalAlignment="Left" Height="22" Margin="119,0,0,75" TextWrapping="Wrap" Text="{Binding YearNom}" VerticalAlignment="Bottom" Width="120" Grid.Column="1"/>
+        <Button x:Name="save_Button" Command="{Binding SaveCommand}" HorizontalAlignment="Right" Margin="0,0,29,131" VerticalAlignment="Bottom" Width="128" Height="38" Background="LightSteelBlue" Grid.Column="1">
+            <TextBlock x:Name="saveButtonContent" Text="Добавить" TextWrapping="Wrap" TextAlignment="Center"/>
+        </Button>
+        <Button x:Name="button_Copy" Command="{Binding DeleteNomCommand}" HorizontalAlignment="Right" Margin="0,0,29,27" VerticalAlignment="Bottom" Width="128" Height="38" Background="LightSteelBlue" Grid.Column="1">
+            <TextBlock Text="Удалить выделенное" TextWrapping="Wrap" TextAlignment="Center"/>
+        </Button>
+        <Button x:Name="removeSelection_Button" Content="Убрать выделение" HorizontalAlignment="Right" Margin="0,0,29,72" VerticalAlignment="Bottom" Width="128" Height="33" Background="SteelBlue" Click="removeSelection_Button_Click" Grid.Column="1"/>
+        <Button x:Name="toExcel" Grid.Column="1" HorizontalAlignment="Right" Margin="0,12,10,0" VerticalAlignment="Top" Width="159" Height="47" Background="SteelBlue" Click="toExcel_Click">
+            <TextBlock x:Name="textBlock4" TextWrapping="Wrap" Text="Выгрузка списка в Excel" TextAlignment="Center"/>
+        </Button>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="24" Margin="116,35,0,0" TextWrapping="Wrap" Text="{Binding SearchByHeading}" VerticalAlignment="Top" Width="398" Grid.Column="1"/>
+        <TextBox x:Name="textBox_Copy" HorizontalAlignment="Left" Height="22" Margin="116,70,0,0" TextWrapping="Wrap" Text="{Binding SearchByOrg}" VerticalAlignment="Top" Width="398" Grid.Column="1"/>
+        <TextBox x:Name="textBox_Copy1" HorizontalAlignment="Left" Height="23" Margin="116,101,0,0" TextWrapping="Wrap" Text="{Binding SearchByYear}" VerticalAlignment="Top" Width="84" Grid.Column="1"/>
+        <TextBlock x:Name="textBlock5" HorizontalAlignment="Left" Margin="6,10,0,0" TextWrapping="Wrap" Text="Поиск" VerticalAlignment="Top" Width="46" FontWeight="Bold" TextAlignment="Right" Grid.Column="1" Height="16"/>
+        <TextBlock x:Name="textBlock6" HorizontalAlignment="Left" Margin="3,36,0,0" TextWrapping="Wrap" Text="по заголовку дела" VerticalAlignment="Top" Width="102" Grid.Column="1" Height="16"/>
+        <TextBlock x:Name="textBlock6_Copy" HorizontalAlignment="Left" Margin="3,70,0,0" TextWrapping="Wrap" Text="по ИК" VerticalAlignment="Top" Width="102" TextAlignment="Right" Grid.Column="1" Height="16"/>
+        <TextBlock x:Name="textBlock6_Copy1" HorizontalAlignment="Left" Margin="3,102,0,0" TextWrapping="Wrap" Text="по году" VerticalAlignment="Top" Width="102" TextAlignment="Right" Grid.Column="1" Height="16"/>
+        <Button x:Name="button_Copy2" Content="Поиск" HorizontalAlignment="Left" Margin="542,70,0,0" VerticalAlignment="Top" Width="84" Height="22" Background="SteelBlue" Command="{Binding SearchCommand}" Grid.Column="1"/>
+
+
+    </Grid>
+</Window>

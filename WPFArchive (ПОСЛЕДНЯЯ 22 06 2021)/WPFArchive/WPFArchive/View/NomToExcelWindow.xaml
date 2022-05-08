@@ -1,0 +1,18 @@
+﻿<Window x:Class="WPFArchive.View.NomToExcelWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFArchive.View" xmlns:viewmodel="clr-namespace:WPFArchive.ViewModel"
+        mc:Ignorable="d" d:DataContext="{d:DesignInstance Type=viewmodel:NomToExcelViewModel}"
+        Title="Выгрузка номенклатуры в Excel" Height="243" Width="494.5">
+    <Grid>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="142,65,0,0" TextWrapping="Wrap" Text="{Binding YearNom}" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="117,66,0,0" TextWrapping="Wrap" Text="Год" VerticalAlignment="Top" FontWeight="Bold" RenderTransformOrigin="2.825,0.376"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="-5,98,0,0" TextWrapping="Wrap" Text="Источник комплектования" VerticalAlignment="Top" FontWeight="Bold" Width="142" TextAlignment="Right"/>
+        <ComboBox ItemsSource="{Binding Organizations}" DisplayMemberPath="nameOrg" SelectedValuePath="idOrg" SelectedValue="{Binding IdOrg}" x:Name="comboBox" HorizontalAlignment="Left" Margin="142,108,0,0" VerticalAlignment="Top" Width="322"/>
+        <Button Command="{Binding ToExcelCommand}" x:Name="button" Content="Создать Excel-файл" HorizontalAlignment="Left" Margin="350,154,0,0" VerticalAlignment="Top" Width="114" Height="38" Background="LightSteelBlue"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="63,22,0,0" TextWrapping="Wrap" Text="Введите год и выберите источник комплектования" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

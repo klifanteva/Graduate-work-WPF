@@ -1,0 +1,32 @@
+﻿<Window x:Class="WPFArchive.View.SetOfDocsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFArchive.View" xmlns:viewmodel="clr-namespace:WPFArchive.ViewModel"
+        d:DataContext="{d:DesignInstance Type=viewmodel:SetOfDocsViewModel}"
+        mc:Ignorable="d"
+        Title="SetOfDocsWindow" Height="504" Width="800">
+    <Grid Height="457" VerticalAlignment="Top">
+        <TextBox Text="{Binding NameOfSet}" HorizontalAlignment="Left" Height="23" Margin="177,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="495"/>
+        <Button Content="Сохранить" Command="{Binding SaveCommand}" HorizontalAlignment="Left" Margin="657,406,0,0" VerticalAlignment="Top" Width="102" Height="32" Background="LightSteelBlue"/>
+        <Label x:Name="label" Content="Организация" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="Номер описи" HorizontalAlignment="Left" Margin="78,81,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBox Text="{Binding NumberOfSet}" HorizontalAlignment="Left" Height="23" Margin="177,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Название" HorizontalAlignment="Left" Margin="99,117,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="Количество экземпляров" HorizontalAlignment="Left" Margin="13,151,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="Начальная дата" HorizontalAlignment="Left" Margin="66,189,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="Конечная дата" HorizontalAlignment="Left" Margin="72,229,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="Категория" HorizontalAlignment="Left" Margin="89,274,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="Доступ" HorizontalAlignment="Left" Margin="457,199,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBox Text="{Binding Copies}" HorizontalAlignment="Left" Height="23" Margin="177,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="141"/>
+        <DatePicker SelectedDate="{Binding StartDate}" HorizontalAlignment="Left" Margin="177,191,0,0" VerticalAlignment="Top" Width="141"/>
+
+        <DatePicker SelectedDate="{Binding EndDate}" HorizontalAlignment="Left" Margin="177,231,0,0" VerticalAlignment="Top" Width="141"/>
+        <TextBox Text="{Binding ReasonOfClosedAccess}" HorizontalAlignment="Left" Height="120" Margin="514,241,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228"/>
+        <ComboBox ItemsSource="{Binding Organizations}" DisplayMemberPath="nameOrg" SelectedValuePath="idOrg" SelectedValue="{Binding IdOrg}" HorizontalAlignment="Left" Margin="102,14,0,0" VerticalAlignment="Top" Width="640"/>
+        <ComboBox ItemsSource="{Binding Categories}" DisplayMemberPath="nameCatOfSet" SelectedValuePath="idCatOfSet" SelectedValue="{Binding Category}" HorizontalAlignment="Left" Margin="177,278,0,0" VerticalAlignment="Top" Width="141"/>
+        <ComboBox ItemsSource="{Binding Accesses}" DisplayMemberPath="nameAccess" SelectedValuePath="idAccess" SelectedValue="{Binding Access}"  HorizontalAlignment="Left" Margin="514,203,0,0" VerticalAlignment="Top" Width="141"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="420,242,0,0" TextWrapping="Wrap" Text="Причина органичения доступа" VerticalAlignment="Top" Width="89" FontWeight="Bold" FlowDirection="RightToLeft"/>
+    </Grid>
+</Window>

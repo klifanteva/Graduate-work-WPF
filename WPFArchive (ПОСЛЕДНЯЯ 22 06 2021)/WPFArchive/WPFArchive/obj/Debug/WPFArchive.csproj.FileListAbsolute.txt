@@ -1,0 +1,292 @@
+D:\универ\4 курс\ВКР\WPFArchive\WPFArchive\WPFArchive\bin\Debug\WPFArchive.exe.config
+D:\универ\4 курс\ВКР\WPFArchive\WPFArchive\WPFArchive\bin\Debug\WPFArchive.exe
+D:\универ\4 курс\ВКР\WPFArchive\WPFArchive\WPFArchive\bin\Debug\WPFArchive.pdb
+D:\универ\4 курс\ВКР\WPFArchive\WPFArchive\WPFArchive\bin\Debug\EntityFramework.dll
+D:\универ\4 курс\ВКР\WPFArchive\WPFArchive\WPFArchive\bin\Debug\EntityFramework.SqlServer.dll
+D:\универ\4 курс\ВКР\WPFArchive\WPFArchive\WPFArchive\bin\Debug\EntityFramework.xml
+D:\универ\4 курс\ВКР\WPFArchive\WPFArchive\WPFArchive\bin\Debug\EntityFramework.SqlServer.xml
+D:\универ\4 курс\ВКР\WPFArchive\WPFArchive\WPFArchive\obj\Debug\App.g.cs
+D:\универ\4 курс\ВКР\WPFArchive\WPFArchive\WPFArchive\obj\Debug\WPFArchive_MarkupCompile.cache
+D:\универ\4 курс\ВКР\WPFArchive\WPFArchive\WPFArchive\obj\Debug\WPFArchive_MarkupCompile.lref
+D:\универ\4 курс\ВКР\WPFArchive\WPFArchive\WPFArchive\obj\Debug\WPFArchive.g.resources
+D:\универ\4 курс\ВКР\WPFArchive\WPFArchive\WPFArchive\obj\Debug\WPFArchive.Properties.Resources.resources
+D:\универ\4 курс\ВКР\WPFArchive\WPFArchive\WPFArchive\obj\Debug\WPFArchive.csproj.GenerateResource.Cache
+D:\универ\4 курс\ВКР\WPFArchive\WPFArchive\WPFArchive\obj\Debug\WPFArchive.exe
+D:\универ\4 курс\ВКР\WPFArchive\WPFArchive\WPFArchive\obj\Debug\WPFArchive.pdb
+D:\универ\4 курс\ВКР\WPFArchive\WPFArchive\WPFArchive\obj\Debug\WPFArchive_Content.g.cs
+D:\универ\4 курс\ВКР\WPFArchive\WPFArchive\WPFArchive\bin\Debug\Prism.Wpf.dll
+D:\универ\4 курс\ВКР\WPFArchive\WPFArchive\WPFArchive\bin\Debug\Prism.Wpf.pdb
+D:\универ\4 курс\ВКР\WPFArchive\WPFArchive\WPFArchive\bin\Debug\Prism.Wpf.xml
+D:\универ\4 курс\ВКР\WPFArchive\WPFArchive\WPFArchive\bin\Debug\ru\EntityFramework.resources.dll
+D:\универ\4 курс\ВКР\WPFArchive\WPFArchive\WPFArchive\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\универ\4 курс\ВКР\WPFArchive\WPFArchive\WPFArchive\obj\Debug\WPFArchive.csprojAssemblyReference.cache
+D:\универ\4 курс\ВКР\WPFArchive\WPFArchive\WPFArchive\obj\Debug\View\MainWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive\WPFArchive\WPFArchive\obj\Debug\View\MainWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive\WPFArchive\WPFArchive\obj\Debug\WPFArchive.csproj.CoreCompileInputs.cache
+D:\универ\4 курс\ВКР\WPFArchive\WPFArchive\WPFArchive\obj\Debug\WPFArchive.csproj.CopyComplete
+D:\универ\4 курс\ВКР\WPFArchive\WPFArchive\WPFArchive\obj\Debug\View\SetOfDocsWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive\WPFArchive\WPFArchive\obj\Debug\View\SetOfDocsWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive\WPFArchive\WPFArchive\obj\Debug\View\DocsWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive\WPFArchive\WPFArchive\obj\Debug\View\DocsWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive\WPFArchive\WPFArchive\obj\Debug\View\OrganizationWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive\WPFArchive\WPFArchive\obj\Debug\View\OrganizationWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive\WPFArchive\WPFArchive\obj\Debug\View\EventWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive\WPFArchive\WPFArchive\obj\Debug\View\EventWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive\WPFArchive\WPFArchive\obj\Debug\View\RenameWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive\WPFArchive\WPFArchive\obj\Debug\View\RenameWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive\WPFArchive\WPFArchive\obj\Debug\View\ContentOfSetWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive\WPFArchive\WPFArchive\obj\Debug\View\ContentOfSetWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (где модель со всем подряд)\WPFArchive\WPFArchive\bin\Debug\WPFArchive.exe.config
+D:\универ\4 курс\ВКР\WPFArchive (где модель со всем подряд)\WPFArchive\WPFArchive\bin\Debug\WPFArchive.exe
+D:\универ\4 курс\ВКР\WPFArchive (где модель со всем подряд)\WPFArchive\WPFArchive\bin\Debug\WPFArchive.pdb
+D:\универ\4 курс\ВКР\WPFArchive (где модель со всем подряд)\WPFArchive\WPFArchive\bin\Debug\EntityFramework.dll
+D:\универ\4 курс\ВКР\WPFArchive (где модель со всем подряд)\WPFArchive\WPFArchive\bin\Debug\EntityFramework.SqlServer.dll
+D:\универ\4 курс\ВКР\WPFArchive (где модель со всем подряд)\WPFArchive\WPFArchive\bin\Debug\Prism.Wpf.dll
+D:\универ\4 курс\ВКР\WPFArchive (где модель со всем подряд)\WPFArchive\WPFArchive\bin\Debug\EntityFramework.xml
+D:\универ\4 курс\ВКР\WPFArchive (где модель со всем подряд)\WPFArchive\WPFArchive\bin\Debug\EntityFramework.SqlServer.xml
+D:\универ\4 курс\ВКР\WPFArchive (где модель со всем подряд)\WPFArchive\WPFArchive\bin\Debug\Prism.Wpf.pdb
+D:\универ\4 курс\ВКР\WPFArchive (где модель со всем подряд)\WPFArchive\WPFArchive\bin\Debug\Prism.Wpf.xml
+D:\универ\4 курс\ВКР\WPFArchive (где модель со всем подряд)\WPFArchive\WPFArchive\bin\Debug\ru\EntityFramework.resources.dll
+D:\универ\4 курс\ВКР\WPFArchive (где модель со всем подряд)\WPFArchive\WPFArchive\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\универ\4 курс\ВКР\WPFArchive (где модель со всем подряд)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.csprojAssemblyReference.cache
+D:\универ\4 курс\ВКР\WPFArchive (где модель со всем подряд)\WPFArchive\WPFArchive\obj\Debug\View\ContentOfSetWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (где модель со всем подряд)\WPFArchive\WPFArchive\obj\Debug\View\DocsWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (где модель со всем подряд)\WPFArchive\WPFArchive\obj\Debug\View\EventWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (где модель со всем подряд)\WPFArchive\WPFArchive\obj\Debug\View\MainWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (где модель со всем подряд)\WPFArchive\WPFArchive\obj\Debug\View\OrganizationWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (где модель со всем подряд)\WPFArchive\WPFArchive\obj\Debug\View\RenameWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (где модель со всем подряд)\WPFArchive\WPFArchive\obj\Debug\View\SetOfDocsWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (где модель со всем подряд)\WPFArchive\WPFArchive\obj\Debug\App.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (где модель со всем подряд)\WPFArchive\WPFArchive\obj\Debug\WPFArchive_Content.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (где модель со всем подряд)\WPFArchive\WPFArchive\obj\Debug\WPFArchive_MarkupCompile.cache
+D:\универ\4 курс\ВКР\WPFArchive (где модель со всем подряд)\WPFArchive\WPFArchive\obj\Debug\WPFArchive_MarkupCompile.lref
+D:\универ\4 курс\ВКР\WPFArchive (где модель со всем подряд)\WPFArchive\WPFArchive\obj\Debug\View\ContentOfSetWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (где модель со всем подряд)\WPFArchive\WPFArchive\obj\Debug\View\DocsWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (где модель со всем подряд)\WPFArchive\WPFArchive\obj\Debug\View\EventWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (где модель со всем подряд)\WPFArchive\WPFArchive\obj\Debug\View\MainWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (где модель со всем подряд)\WPFArchive\WPFArchive\obj\Debug\View\OrganizationWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (где модель со всем подряд)\WPFArchive\WPFArchive\obj\Debug\View\RenameWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (где модель со всем подряд)\WPFArchive\WPFArchive\obj\Debug\View\SetOfDocsWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (где модель со всем подряд)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.g.resources
+D:\универ\4 курс\ВКР\WPFArchive (где модель со всем подряд)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.Properties.Resources.resources
+D:\универ\4 курс\ВКР\WPFArchive (где модель со всем подряд)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.csproj.GenerateResource.cache
+D:\универ\4 курс\ВКР\WPFArchive (где модель со всем подряд)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.csproj.CoreCompileInputs.cache
+D:\универ\4 курс\ВКР\WPFArchive (где модель со всем подряд)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.csproj.CopyComplete
+D:\универ\4 курс\ВКР\WPFArchive (где модель со всем подряд)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.exe
+D:\универ\4 курс\ВКР\WPFArchive (где модель со всем подряд)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.pdb
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 18 05 20)\WPFArchive\WPFArchive\bin\Debug\WPFArchive.exe.config
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 18 05 20)\WPFArchive\WPFArchive\bin\Debug\WPFArchive.exe
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 18 05 20)\WPFArchive\WPFArchive\bin\Debug\WPFArchive.pdb
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 18 05 20)\WPFArchive\WPFArchive\bin\Debug\EntityFramework.dll
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 18 05 20)\WPFArchive\WPFArchive\bin\Debug\EntityFramework.SqlServer.dll
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 18 05 20)\WPFArchive\WPFArchive\bin\Debug\Prism.Wpf.dll
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 18 05 20)\WPFArchive\WPFArchive\bin\Debug\EntityFramework.xml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 18 05 20)\WPFArchive\WPFArchive\bin\Debug\EntityFramework.SqlServer.xml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 18 05 20)\WPFArchive\WPFArchive\bin\Debug\Prism.Wpf.pdb
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 18 05 20)\WPFArchive\WPFArchive\bin\Debug\Prism.Wpf.xml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 18 05 20)\WPFArchive\WPFArchive\bin\Debug\ru\EntityFramework.resources.dll
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 18 05 20)\WPFArchive\WPFArchive\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 18 05 20)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.csprojAssemblyReference.cache
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 18 05 20)\WPFArchive\WPFArchive\obj\Debug\View\ContentOfSetWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 18 05 20)\WPFArchive\WPFArchive\obj\Debug\View\DocsWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 18 05 20)\WPFArchive\WPFArchive\obj\Debug\View\EventWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 18 05 20)\WPFArchive\WPFArchive\obj\Debug\View\MainWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 18 05 20)\WPFArchive\WPFArchive\obj\Debug\View\OrganizationWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 18 05 20)\WPFArchive\WPFArchive\obj\Debug\View\RenameWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 18 05 20)\WPFArchive\WPFArchive\obj\Debug\View\SetOfDocsWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 18 05 20)\WPFArchive\WPFArchive\obj\Debug\App.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 18 05 20)\WPFArchive\WPFArchive\obj\Debug\WPFArchive_Content.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 18 05 20)\WPFArchive\WPFArchive\obj\Debug\WPFArchive_MarkupCompile.cache
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 18 05 20)\WPFArchive\WPFArchive\obj\Debug\WPFArchive_MarkupCompile.lref
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 18 05 20)\WPFArchive\WPFArchive\obj\Debug\View\ContentOfSetWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 18 05 20)\WPFArchive\WPFArchive\obj\Debug\View\DocsWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 18 05 20)\WPFArchive\WPFArchive\obj\Debug\View\EventWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 18 05 20)\WPFArchive\WPFArchive\obj\Debug\View\MainWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 18 05 20)\WPFArchive\WPFArchive\obj\Debug\View\OrganizationWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 18 05 20)\WPFArchive\WPFArchive\obj\Debug\View\RenameWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 18 05 20)\WPFArchive\WPFArchive\obj\Debug\View\SetOfDocsWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 18 05 20)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.g.resources
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 18 05 20)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.Properties.Resources.resources
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 18 05 20)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.csproj.GenerateResource.cache
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 18 05 20)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.csproj.CoreCompileInputs.cache
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 18 05 20)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.csproj.CopyComplete
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 18 05 20)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.exe
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 18 05 20)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.pdb
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\bin\Debug\WPFArchive.exe.config
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\bin\Debug\WPFArchive.exe
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\bin\Debug\WPFArchive.pdb
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\bin\Debug\EntityFramework.dll
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\bin\Debug\EntityFramework.SqlServer.dll
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\bin\Debug\Prism.Wpf.dll
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\bin\Debug\EntityFramework.xml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\bin\Debug\EntityFramework.SqlServer.xml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\bin\Debug\Prism.Wpf.pdb
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\bin\Debug\Prism.Wpf.xml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\bin\Debug\ru\EntityFramework.resources.dll
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.csprojAssemblyReference.cache
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\obj\Debug\View\ContentOfSetWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\obj\Debug\View\DocsWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\obj\Debug\View\EventWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\obj\Debug\View\MainWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\obj\Debug\View\OrganizationWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\obj\Debug\View\RenameWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\obj\Debug\View\SetOfDocsWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\obj\Debug\App.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive_Content.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive_MarkupCompile.cache
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive_MarkupCompile.lref
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\obj\Debug\View\ContentOfSetWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\obj\Debug\View\DocsWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\obj\Debug\View\EventWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\obj\Debug\View\MainWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\obj\Debug\View\OrganizationWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\obj\Debug\View\RenameWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\obj\Debug\View\SetOfDocsWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.g.resources
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.Properties.Resources.resources
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.csproj.GenerateResource.cache
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.csproj.CoreCompileInputs.cache
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.csproj.CopyComplete
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.exe
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.pdb
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\obj\Debug\View\NomenclatureWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 25 05 2021)\WPFArchive\WPFArchive\obj\Debug\View\NomenclatureWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\bin\Debug\WPFArchive.exe.config
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\bin\Debug\WPFArchive.exe
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\bin\Debug\WPFArchive.pdb
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\bin\Debug\EntityFramework.dll
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\bin\Debug\EntityFramework.SqlServer.dll
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\bin\Debug\Prism.Wpf.dll
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\bin\Debug\EntityFramework.xml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\bin\Debug\EntityFramework.SqlServer.xml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\bin\Debug\Prism.Wpf.pdb
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\bin\Debug\Prism.Wpf.xml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\bin\Debug\ru\EntityFramework.resources.dll
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\ContentOfSetWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\DocsWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\EventWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\MainWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\NomenclatureWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\OrganizationWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\RenameWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\SetOfDocsWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\obj\Debug\App.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive_Content.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive_MarkupCompile.cache
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive_MarkupCompile.lref
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\ContentOfSetWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\DocsWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\EventWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\MainWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\NomenclatureWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\OrganizationWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\RenameWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\SetOfDocsWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.g.resources
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.Properties.Resources.resources
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.csproj.GenerateResource.cache
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.csproj.CoreCompileInputs.cache
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.csproj.CopyComplete
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.exe
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.pdb
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.csproj.AssemblyReference.cache
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\NomToExcelWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\NomToExcelWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\bin\Debug\WPFArchive.exe.manifest
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\bin\Debug\WPFArchive.application
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.exe.manifest
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 01 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.application
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.csproj.AssemblyReference.cache
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\ContentOfSetWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\DocsWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\EventWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\MainWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\NomenclatureWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\NomToExcelWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\OrganizationWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\RenameWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\SetOfDocsWindow.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\App.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive_Content.g.cs
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive_MarkupCompile.cache
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive_MarkupCompile.lref
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\ContentOfSetWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\DocsWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\EventWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\MainWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\NomenclatureWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\NomToExcelWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\OrganizationWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\RenameWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\SetOfDocsWindow.baml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.g.resources
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.Properties.Resources.resources
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.csproj.GenerateResource.cache
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.csproj.CoreCompileInputs.cache
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.exe
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.pdb
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\bin\Debug\WPFArchive.exe.config
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\bin\Debug\WPFArchive.exe.manifest
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\bin\Debug\WPFArchive.application
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\bin\Debug\WPFArchive.exe
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\bin\Debug\WPFArchive.pdb
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\bin\Debug\EntityFramework.dll
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\bin\Debug\EntityFramework.SqlServer.dll
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\bin\Debug\Prism.Wpf.dll
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\bin\Debug\EntityFramework.xml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\bin\Debug\EntityFramework.SqlServer.xml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\bin\Debug\Prism.Wpf.pdb
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\bin\Debug\Prism.Wpf.xml
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\bin\Debug\ru\EntityFramework.resources.dll
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.exe.manifest
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.application
+D:\универ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.csproj.CopyComplete
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\bin\Debug\WPFArchive.exe.config
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\bin\Debug\WPFArchive.exe.manifest
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\bin\Debug\WPFArchive.application
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\bin\Debug\WPFArchive.exe
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\bin\Debug\WPFArchive.pdb
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\bin\Debug\EntityFramework.dll
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\bin\Debug\EntityFramework.SqlServer.dll
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\bin\Debug\Prism.Wpf.dll
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\bin\Debug\EntityFramework.xml
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\bin\Debug\EntityFramework.SqlServer.xml
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\bin\Debug\Prism.Wpf.pdb
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\bin\Debug\Prism.Wpf.xml
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\bin\Debug\ru\EntityFramework.resources.dll
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.csproj.AssemblyReference.cache
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\ContentOfSetWindow.g.cs
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\DocsWindow.g.cs
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\EventWindow.g.cs
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\MainWindow.g.cs
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\NomenclatureWindow.g.cs
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\NomToExcelWindow.g.cs
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\OrganizationWindow.g.cs
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\RenameWindow.g.cs
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\SetOfDocsWindow.g.cs
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\App.g.cs
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive_Content.g.cs
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive_MarkupCompile.cache
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive_MarkupCompile.lref
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\ContentOfSetWindow.baml
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\DocsWindow.baml
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\EventWindow.baml
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\MainWindow.baml
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\NomenclatureWindow.baml
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\NomToExcelWindow.baml
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\OrganizationWindow.baml
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\RenameWindow.baml
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\View\SetOfDocsWindow.baml
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.g.resources
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.Properties.Resources.resources
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.csproj.GenerateResource.cache
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.csproj.CoreCompileInputs.cache
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.exe.manifest
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.application
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.csproj.CopyComplete
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.exe
+D:\ИРНИТУ\4 курс\ВКР\WPFArchive (ПОСЛЕДНЯЯ 22 06 2021)\WPFArchive\WPFArchive\obj\Debug\WPFArchive.pdb

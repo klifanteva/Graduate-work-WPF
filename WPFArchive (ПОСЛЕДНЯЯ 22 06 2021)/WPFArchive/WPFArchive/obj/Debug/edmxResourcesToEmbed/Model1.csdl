@@ -1,0 +1,655 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="archiveModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="access">
+    <Key>
+      <PropertyRef Name="idAccess" />
+    </Key>
+    <Property Name="idAccess" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nameAccess" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="setOfDocs" Relationship="Self.FK__setOfDocs__acces__43A1090D" FromRole="access" ToRole="setOfDocs" />
+  </EntityType>
+  <EntityType Name="categoryOfSet">
+    <Key>
+      <PropertyRef Name="idCatOfSet" />
+    </Key>
+    <Property Name="idCatOfSet" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nameCatOfSet" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="setOfDocs" Relationship="Self.FK__setOfDocs__categ__42ACE4D4" FromRole="categoryOfSet" ToRole="setOfDocs" />
+  </EntityType>
+  <EntityType Name="collectionProfile">
+    <Key>
+      <PropertyRef Name="idColProf" />
+    </Key>
+    <Property Name="idColProf" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nameColProf" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="organization" Relationship="Self.FK__organizat__colle__2A4B4B5E" FromRole="collectionProfile" ToRole="organization" />
+  </EntityType>
+  <EntityType Name="cupboard">
+    <Key>
+      <PropertyRef Name="idCupboard" />
+    </Key>
+    <Property Name="idCupboard" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nameCupboard" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="organizationArchive" Relationship="Self.FK__organizat__cupbo__3B40CD36" FromRole="cupboard" ToRole="organizationArchive" />
+    <NavigationProperty Name="organizationArchive1" Relationship="Self.FK__organizat__cupbo__3C34F16F" FromRole="cupboard" ToRole="organizationArchive" />
+  </EntityType>
+  <EntityType Name="document">
+    <Key>
+      <PropertyRef Name="idDoc" />
+    </Key>
+    <Property Name="idDoc" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="documentType_idDocType" Type="Int32" Nullable="false" />
+    <Property Name="setOfDocs_idSet" Type="Int32" Nullable="false" />
+    <Property Name="nomenclature_idNom" Type="Int32" Nullable="false" />
+    <Property Name="dateDoc" Type="DateTime" Precision="0" />
+    <Property Name="numberDoc" Type="Int32" />
+    <Property Name="filePath" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="sheetsCount" Type="Int32" />
+    <NavigationProperty Name="documentType" Relationship="Self.FK__document__docume__689D8392" FromRole="document" ToRole="documentType" />
+    <NavigationProperty Name="nomenclature" Relationship="Self.FK__document__nomenc__6C6E1476" FromRole="document" ToRole="nomenclature" />
+    <NavigationProperty Name="setOfDocs" Relationship="Self.FK__document__setOfD__6B79F03D" FromRole="document" ToRole="setOfDocs" />
+  </EntityType>
+  <EntityType Name="documentType">
+    <Key>
+      <PropertyRef Name="idDocType" />
+    </Key>
+    <Property Name="idDocType" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nameDocType" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="document" Relationship="Self.FK__document__docume__689D8392" FromRole="documentType" ToRole="document" />
+  </EntityType>
+  <EntityType Name="event_logbook">
+    <Key>
+      <PropertyRef Name="idEvent_logbook" />
+    </Key>
+    <Property Name="idEvent_logbook" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="typeOfEvent_idTypeOfEvent" Type="Int32" Nullable="false" />
+    <Property Name="organization_idOrg" Type="Int32" Nullable="false" />
+    <Property Name="dateOfEvent" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="result" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="responsibleOfEvent" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="done" Type="Boolean" />
+    <NavigationProperty Name="organization" Relationship="Self.FK__event_log__organ__30C33EC3" FromRole="event_logbook" ToRole="organization" />
+    <NavigationProperty Name="typeOfEvent" Relationship="Self.FK__event_log__typeO__31B762FC" FromRole="event_logbook" ToRole="typeOfEvent" />
+  </EntityType>
+  <EntityType Name="heating">
+    <Key>
+      <PropertyRef Name="idHeating" />
+    </Key>
+    <Property Name="idHeating" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nameHeating" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="organizationArchive" Relationship="Self.FK__organizat__heati__3D2915A8" FromRole="heating" ToRole="organizationArchive" />
+    <NavigationProperty Name="organizationArchive1" Relationship="Self.FK__organizat__heati__3E1D39E1" FromRole="heating" ToRole="organizationArchive" />
+  </EntityType>
+  <EntityType Name="nomenclature">
+    <Key>
+      <PropertyRef Name="idNom" />
+    </Key>
+    <Property Name="idNom" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="organization_idOrg" Type="Int32" Nullable="false" />
+    <Property Name="actIndex" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="actHeading" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="yearNom" Type="Int32" />
+    <NavigationProperty Name="document" Relationship="Self.FK__document__nomenc__6C6E1476" FromRole="nomenclature" ToRole="document" />
+    <NavigationProperty Name="organization" Relationship="Self.FK__nomenclat__organ__473C8FC7" FromRole="nomenclature" ToRole="organization" />
+  </EntityType>
+  <EntityType Name="organization">
+    <Key>
+      <PropertyRef Name="idOrg" />
+    </Key>
+    <Property Name="idOrg" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="receivingForm_idRecForm" Type="Int32" Nullable="false" />
+    <Property Name="collectionProfile_idColProf" Type="Int32" Nullable="false" />
+    <Property Name="ownForm_idOwnForm" Type="Int32" Nullable="false" />
+    <Property Name="nameOrg" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="foundationDate" Type="DateTime" Precision="0" />
+    <Property Name="adress" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="curator" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="nameDirector" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="phoneDirector" Type="Int64" />
+    <Property Name="emailDirector" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="nameRespPers" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="phoneRespPers" Type="Int64" />
+    <Property Name="emailRespPers" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="isSource" Type="Boolean" />
+    <NavigationProperty Name="collectionProfile" Relationship="Self.FK__organizat__colle__2A4B4B5E" FromRole="organization" ToRole="collectionProfile" />
+    <NavigationProperty Name="event_logbook" Relationship="Self.FK__event_log__organ__30C33EC3" FromRole="organization" ToRole="event_logbook" />
+    <NavigationProperty Name="nomenclature" Relationship="Self.FK__nomenclat__organ__473C8FC7" FromRole="organization" ToRole="nomenclature" />
+    <NavigationProperty Name="organizationArchive" Relationship="Self.FK__organizat__organ__3F115E1A" FromRole="organization" ToRole="organizationArchive" />
+    <NavigationProperty Name="ownForm" Relationship="Self.FK__organizat__ownFo__29572725" FromRole="organization" ToRole="ownForm" />
+    <NavigationProperty Name="receivingForm" Relationship="Self.FK__organizat__recei__286302EC" FromRole="organization" ToRole="receivingForm" />
+    <NavigationProperty Name="renamesOfOrganization" Relationship="Self.FK__renamesOf__organ__160F4887" FromRole="organization" ToRole="renamesOfOrganization" />
+    <NavigationProperty Name="setOfDocs" Relationship="Self.FK__setOfDocs__organ__2022C2A6" FromRole="organization" ToRole="setOfDocs" />
+  </EntityType>
+  <EntityType Name="organizationArchive">
+    <Key>
+      <PropertyRef Name="idOrgArchive" />
+    </Key>
+    <Property Name="idOrgArchive" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="heating_idHeating" Type="Int32" />
+    <Property Name="shelving_idShelving" Type="Int32" />
+    <Property Name="cupboard_idCupboard" Type="Int32" />
+    <Property Name="organization_idOrg" Type="Int32" Nullable="false" />
+    <Property Name="fundCount" Type="Int32" />
+    <Property Name="storageSquare" Type="Single" />
+    <Property Name="filledCapacityPercent" Type="Single" />
+    <Property Name="employeeCount" Type="Int32" />
+    <Property Name="timeOfStorage" Type="Single" />
+    <Property Name="storageDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="storageExistence" Type="Boolean" Nullable="false" />
+    <Property Name="fireAlarm" Type="Boolean" />
+    <Property Name="securityAlarm" Type="Boolean" />
+    <Property Name="tempAndCoolConditions" Type="Boolean" />
+    <Property Name="pathAboutArchive" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="pathExpertCommission" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="pathInstruction" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="cupboard" Relationship="Self.FK__organizat__cupbo__3B40CD36" FromRole="organizationArchive" ToRole="cupboard" />
+    <NavigationProperty Name="cupboard1" Relationship="Self.FK__organizat__cupbo__3C34F16F" FromRole="organizationArchive" ToRole="cupboard" />
+    <NavigationProperty Name="heating" Relationship="Self.FK__organizat__heati__3D2915A8" FromRole="organizationArchive" ToRole="heating" />
+    <NavigationProperty Name="heating1" Relationship="Self.FK__organizat__heati__3E1D39E1" FromRole="organizationArchive" ToRole="heating" />
+    <NavigationProperty Name="organization" Relationship="Self.FK__organizat__organ__3F115E1A" FromRole="organizationArchive" ToRole="organization" />
+    <NavigationProperty Name="shelving" Relationship="Self.FK__organizat__shelv__40058253" FromRole="organizationArchive" ToRole="shelving" />
+    <NavigationProperty Name="shelving1" Relationship="Self.FK__organizat__shelv__40F9A68C" FromRole="organizationArchive" ToRole="shelving" />
+  </EntityType>
+  <EntityType Name="ownForm">
+    <Key>
+      <PropertyRef Name="idOwnForm" />
+    </Key>
+    <Property Name="idOwnForm" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nameOwnForm" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="organization" Relationship="Self.FK__organizat__ownFo__29572725" FromRole="ownForm" ToRole="organization" />
+  </EntityType>
+  <EntityType Name="receivingForm">
+    <Key>
+      <PropertyRef Name="idRecForm" />
+    </Key>
+    <Property Name="idRecForm" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nameRecForm" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="organization" Relationship="Self.FK__organizat__recei__286302EC" FromRole="receivingForm" ToRole="organization" />
+  </EntityType>
+  <EntityType Name="renamesOfOrganization">
+    <Key>
+      <PropertyRef Name="idNameOfOrganization" />
+    </Key>
+    <Property Name="idNameOfOrganization" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="organization_idOrg" Type="Int32" Nullable="false" />
+    <Property Name="nameRenamed" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="startDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="endDate" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="organization" Relationship="Self.FK__renamesOf__organ__160F4887" FromRole="renamesOfOrganization" ToRole="organization" />
+  </EntityType>
+  <EntityType Name="setOfDocs">
+    <Key>
+      <PropertyRef Name="idSet" />
+    </Key>
+    <Property Name="idSet" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="organization_idOrg" Type="Int32" Nullable="false" />
+    <Property Name="categoryOfSet_idCatOfSet" Type="Int32" Nullable="false" />
+    <Property Name="access_idAccess" Type="Int32" Nullable="false" />
+    <Property Name="startDate" Type="DateTime" Precision="0" />
+    <Property Name="endDate" Type="DateTime" Precision="0" />
+    <Property Name="numberSet" Type="Int32" />
+    <Property Name="copies" Type="Int32" />
+    <Property Name="nameOfSet" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="reasonOfClosedAccess" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="access" Relationship="Self.FK__setOfDocs__acces__43A1090D" FromRole="setOfDocs" ToRole="access" />
+    <NavigationProperty Name="categoryOfSet" Relationship="Self.FK__setOfDocs__categ__42ACE4D4" FromRole="setOfDocs" ToRole="categoryOfSet" />
+    <NavigationProperty Name="document" Relationship="Self.FK__document__setOfD__6B79F03D" FromRole="setOfDocs" ToRole="document" />
+    <NavigationProperty Name="organization" Relationship="Self.FK__setOfDocs__organ__2022C2A6" FromRole="setOfDocs" ToRole="organization" />
+  </EntityType>
+  <EntityType Name="shelving">
+    <Key>
+      <PropertyRef Name="idShelving" />
+    </Key>
+    <Property Name="idShelving" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nameShelving" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="organizationArchive" Relationship="Self.FK__organizat__shelv__40058253" FromRole="shelving" ToRole="organizationArchive" />
+    <NavigationProperty Name="organizationArchive1" Relationship="Self.FK__organizat__shelv__40F9A68C" FromRole="shelving" ToRole="organizationArchive" />
+  </EntityType>
+  <EntityType Name="typeOfEvent">
+    <Key>
+      <PropertyRef Name="idTypeOfEvent" />
+    </Key>
+    <Property Name="idTypeOfEvent" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nameTypeOfEvent" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="event_logbook" Relationship="Self.FK__event_log__typeO__31B762FC" FromRole="typeOfEvent" ToRole="event_logbook" />
+  </EntityType>
+  <Association Name="FK__setOfDocs__acces__43A1090D">
+    <End Role="access" Type="Self.access" Multiplicity="1" />
+    <End Role="setOfDocs" Type="Self.setOfDocs" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="access">
+        <PropertyRef Name="idAccess" />
+      </Principal>
+      <Dependent Role="setOfDocs">
+        <PropertyRef Name="access_idAccess" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__setOfDocs__categ__42ACE4D4">
+    <End Role="categoryOfSet" Type="Self.categoryOfSet" Multiplicity="1" />
+    <End Role="setOfDocs" Type="Self.setOfDocs" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="categoryOfSet">
+        <PropertyRef Name="idCatOfSet" />
+      </Principal>
+      <Dependent Role="setOfDocs">
+        <PropertyRef Name="categoryOfSet_idCatOfSet" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__organizat__colle__2A4B4B5E">
+    <End Role="collectionProfile" Type="Self.collectionProfile" Multiplicity="1" />
+    <End Role="organization" Type="Self.organization" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="collectionProfile">
+        <PropertyRef Name="idColProf" />
+      </Principal>
+      <Dependent Role="organization">
+        <PropertyRef Name="collectionProfile_idColProf" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__organizat__cupbo__3B40CD36">
+    <End Role="cupboard" Type="Self.cupboard" Multiplicity="0..1" />
+    <End Role="organizationArchive" Type="Self.organizationArchive" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cupboard">
+        <PropertyRef Name="idCupboard" />
+      </Principal>
+      <Dependent Role="organizationArchive">
+        <PropertyRef Name="cupboard_idCupboard" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__organizat__cupbo__3C34F16F">
+    <End Role="cupboard" Type="Self.cupboard" Multiplicity="0..1" />
+    <End Role="organizationArchive" Type="Self.organizationArchive" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cupboard">
+        <PropertyRef Name="idCupboard" />
+      </Principal>
+      <Dependent Role="organizationArchive">
+        <PropertyRef Name="cupboard_idCupboard" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__document__docume__689D8392">
+    <End Role="documentType" Type="Self.documentType" Multiplicity="1" />
+    <End Role="document" Type="Self.document" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="documentType">
+        <PropertyRef Name="idDocType" />
+      </Principal>
+      <Dependent Role="document">
+        <PropertyRef Name="documentType_idDocType" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__document__nomenc__6C6E1476">
+    <End Role="nomenclature" Type="Self.nomenclature" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="document" Type="Self.document" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="nomenclature">
+        <PropertyRef Name="idNom" />
+      </Principal>
+      <Dependent Role="document">
+        <PropertyRef Name="nomenclature_idNom" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__document__setOfD__6B79F03D">
+    <End Role="setOfDocs" Type="Self.setOfDocs" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="document" Type="Self.document" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="setOfDocs">
+        <PropertyRef Name="idSet" />
+      </Principal>
+      <Dependent Role="document">
+        <PropertyRef Name="setOfDocs_idSet" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__event_log__organ__30C33EC3">
+    <End Role="organization" Type="Self.organization" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="event_logbook" Type="Self.event_logbook" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="organization">
+        <PropertyRef Name="idOrg" />
+      </Principal>
+      <Dependent Role="event_logbook">
+        <PropertyRef Name="organization_idOrg" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__event_log__typeO__31B762FC">
+    <End Role="typeOfEvent" Type="Self.typeOfEvent" Multiplicity="1" />
+    <End Role="event_logbook" Type="Self.event_logbook" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="typeOfEvent">
+        <PropertyRef Name="idTypeOfEvent" />
+      </Principal>
+      <Dependent Role="event_logbook">
+        <PropertyRef Name="typeOfEvent_idTypeOfEvent" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__organizat__heati__3D2915A8">
+    <End Role="heating" Type="Self.heating" Multiplicity="0..1" />
+    <End Role="organizationArchive" Type="Self.organizationArchive" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="heating">
+        <PropertyRef Name="idHeating" />
+      </Principal>
+      <Dependent Role="organizationArchive">
+        <PropertyRef Name="heating_idHeating" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__organizat__heati__3E1D39E1">
+    <End Role="heating" Type="Self.heating" Multiplicity="0..1" />
+    <End Role="organizationArchive" Type="Self.organizationArchive" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="heating">
+        <PropertyRef Name="idHeating" />
+      </Principal>
+      <Dependent Role="organizationArchive">
+        <PropertyRef Name="heating_idHeating" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__nomenclat__organ__473C8FC7">
+    <End Role="organization" Type="Self.organization" Multiplicity="1" />
+    <End Role="nomenclature" Type="Self.nomenclature" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="organization">
+        <PropertyRef Name="idOrg" />
+      </Principal>
+      <Dependent Role="nomenclature">
+        <PropertyRef Name="organization_idOrg" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__organizat__organ__3F115E1A">
+    <End Role="organization" Type="Self.organization" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="organizationArchive" Type="Self.organizationArchive" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="organization">
+        <PropertyRef Name="idOrg" />
+      </Principal>
+      <Dependent Role="organizationArchive">
+        <PropertyRef Name="organization_idOrg" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__organizat__ownFo__29572725">
+    <End Role="ownForm" Type="Self.ownForm" Multiplicity="1" />
+    <End Role="organization" Type="Self.organization" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ownForm">
+        <PropertyRef Name="idOwnForm" />
+      </Principal>
+      <Dependent Role="organization">
+        <PropertyRef Name="ownForm_idOwnForm" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__organizat__recei__286302EC">
+    <End Role="receivingForm" Type="Self.receivingForm" Multiplicity="1" />
+    <End Role="organization" Type="Self.organization" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="receivingForm">
+        <PropertyRef Name="idRecForm" />
+      </Principal>
+      <Dependent Role="organization">
+        <PropertyRef Name="receivingForm_idRecForm" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__renamesOf__organ__160F4887">
+    <End Role="organization" Type="Self.organization" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="renamesOfOrganization" Type="Self.renamesOfOrganization" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="organization">
+        <PropertyRef Name="idOrg" />
+      </Principal>
+      <Dependent Role="renamesOfOrganization">
+        <PropertyRef Name="organization_idOrg" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__setOfDocs__organ__2022C2A6">
+    <End Role="organization" Type="Self.organization" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="setOfDocs" Type="Self.setOfDocs" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="organization">
+        <PropertyRef Name="idOrg" />
+      </Principal>
+      <Dependent Role="setOfDocs">
+        <PropertyRef Name="organization_idOrg" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__organizat__shelv__40058253">
+    <End Role="shelving" Type="Self.shelving" Multiplicity="0..1" />
+    <End Role="organizationArchive" Type="Self.organizationArchive" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="shelving">
+        <PropertyRef Name="idShelving" />
+      </Principal>
+      <Dependent Role="organizationArchive">
+        <PropertyRef Name="shelving_idShelving" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__organizat__shelv__40F9A68C">
+    <End Role="shelving" Type="Self.shelving" Multiplicity="0..1" />
+    <End Role="organizationArchive" Type="Self.organizationArchive" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="shelving">
+        <PropertyRef Name="idShelving" />
+      </Principal>
+      <Dependent Role="organizationArchive">
+        <PropertyRef Name="shelving_idShelving" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="archiveEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="access" EntityType="Self.access" />
+    <EntitySet Name="categoryOfSet" EntityType="Self.categoryOfSet" />
+    <EntitySet Name="collectionProfile" EntityType="Self.collectionProfile" />
+    <EntitySet Name="cupboard" EntityType="Self.cupboard" />
+    <EntitySet Name="document" EntityType="Self.document" />
+    <EntitySet Name="documentType" EntityType="Self.documentType" />
+    <EntitySet Name="event_logbook" EntityType="Self.event_logbook" />
+    <EntitySet Name="heating" EntityType="Self.heating" />
+    <EntitySet Name="nomenclature" EntityType="Self.nomenclature" />
+    <EntitySet Name="organization" EntityType="Self.organization" />
+    <EntitySet Name="organizationArchive" EntityType="Self.organizationArchive" />
+    <EntitySet Name="ownForm" EntityType="Self.ownForm" />
+    <EntitySet Name="receivingForm" EntityType="Self.receivingForm" />
+    <EntitySet Name="renamesOfOrganization" EntityType="Self.renamesOfOrganization" />
+    <EntitySet Name="setOfDocs" EntityType="Self.setOfDocs" />
+    <EntitySet Name="shelving" EntityType="Self.shelving" />
+    <EntitySet Name="typeOfEvent" EntityType="Self.typeOfEvent" />
+    <AssociationSet Name="FK__setOfDocs__acces__43A1090D" Association="Self.FK__setOfDocs__acces__43A1090D">
+      <End Role="access" EntitySet="access" />
+      <End Role="setOfDocs" EntitySet="setOfDocs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__setOfDocs__categ__42ACE4D4" Association="Self.FK__setOfDocs__categ__42ACE4D4">
+      <End Role="categoryOfSet" EntitySet="categoryOfSet" />
+      <End Role="setOfDocs" EntitySet="setOfDocs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__organizat__colle__2A4B4B5E" Association="Self.FK__organizat__colle__2A4B4B5E">
+      <End Role="collectionProfile" EntitySet="collectionProfile" />
+      <End Role="organization" EntitySet="organization" />
+    </AssociationSet>
+    <AssociationSet Name="FK__organizat__cupbo__3B40CD36" Association="Self.FK__organizat__cupbo__3B40CD36">
+      <End Role="cupboard" EntitySet="cupboard" />
+      <End Role="organizationArchive" EntitySet="organizationArchive" />
+    </AssociationSet>
+    <AssociationSet Name="FK__organizat__cupbo__3C34F16F" Association="Self.FK__organizat__cupbo__3C34F16F">
+      <End Role="cupboard" EntitySet="cupboard" />
+      <End Role="organizationArchive" EntitySet="organizationArchive" />
+    </AssociationSet>
+    <AssociationSet Name="FK__document__docume__689D8392" Association="Self.FK__document__docume__689D8392">
+      <End Role="documentType" EntitySet="documentType" />
+      <End Role="document" EntitySet="document" />
+    </AssociationSet>
+    <AssociationSet Name="FK__document__nomenc__6C6E1476" Association="Self.FK__document__nomenc__6C6E1476">
+      <End Role="nomenclature" EntitySet="nomenclature" />
+      <End Role="document" EntitySet="document" />
+    </AssociationSet>
+    <AssociationSet Name="FK__document__setOfD__6B79F03D" Association="Self.FK__document__setOfD__6B79F03D">
+      <End Role="setOfDocs" EntitySet="setOfDocs" />
+      <End Role="document" EntitySet="document" />
+    </AssociationSet>
+    <AssociationSet Name="FK__event_log__organ__30C33EC3" Association="Self.FK__event_log__organ__30C33EC3">
+      <End Role="organization" EntitySet="organization" />
+      <End Role="event_logbook" EntitySet="event_logbook" />
+    </AssociationSet>
+    <AssociationSet Name="FK__event_log__typeO__31B762FC" Association="Self.FK__event_log__typeO__31B762FC">
+      <End Role="typeOfEvent" EntitySet="typeOfEvent" />
+      <End Role="event_logbook" EntitySet="event_logbook" />
+    </AssociationSet>
+    <AssociationSet Name="FK__organizat__heati__3D2915A8" Association="Self.FK__organizat__heati__3D2915A8">
+      <End Role="heating" EntitySet="heating" />
+      <End Role="organizationArchive" EntitySet="organizationArchive" />
+    </AssociationSet>
+    <AssociationSet Name="FK__organizat__heati__3E1D39E1" Association="Self.FK__organizat__heati__3E1D39E1">
+      <End Role="heating" EntitySet="heating" />
+      <End Role="organizationArchive" EntitySet="organizationArchive" />
+    </AssociationSet>
+    <AssociationSet Name="FK__nomenclat__organ__473C8FC7" Association="Self.FK__nomenclat__organ__473C8FC7">
+      <End Role="organization" EntitySet="organization" />
+      <End Role="nomenclature" EntitySet="nomenclature" />
+    </AssociationSet>
+    <AssociationSet Name="FK__organizat__organ__3F115E1A" Association="Self.FK__organizat__organ__3F115E1A">
+      <End Role="organization" EntitySet="organization" />
+      <End Role="organizationArchive" EntitySet="organizationArchive" />
+    </AssociationSet>
+    <AssociationSet Name="FK__organizat__ownFo__29572725" Association="Self.FK__organizat__ownFo__29572725">
+      <End Role="ownForm" EntitySet="ownForm" />
+      <End Role="organization" EntitySet="organization" />
+    </AssociationSet>
+    <AssociationSet Name="FK__organizat__recei__286302EC" Association="Self.FK__organizat__recei__286302EC">
+      <End Role="receivingForm" EntitySet="receivingForm" />
+      <End Role="organization" EntitySet="organization" />
+    </AssociationSet>
+    <AssociationSet Name="FK__renamesOf__organ__160F4887" Association="Self.FK__renamesOf__organ__160F4887">
+      <End Role="organization" EntitySet="organization" />
+      <End Role="renamesOfOrganization" EntitySet="renamesOfOrganization" />
+    </AssociationSet>
+    <AssociationSet Name="FK__setOfDocs__organ__2022C2A6" Association="Self.FK__setOfDocs__organ__2022C2A6">
+      <End Role="organization" EntitySet="organization" />
+      <End Role="setOfDocs" EntitySet="setOfDocs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__organizat__shelv__40058253" Association="Self.FK__organizat__shelv__40058253">
+      <End Role="shelving" EntitySet="shelving" />
+      <End Role="organizationArchive" EntitySet="organizationArchive" />
+    </AssociationSet>
+    <AssociationSet Name="FK__organizat__shelv__40F9A68C" Association="Self.FK__organizat__shelv__40F9A68C">
+      <End Role="shelving" EntitySet="shelving" />
+      <End Role="organizationArchive" EntitySet="organizationArchive" />
+    </AssociationSet>
+    <FunctionImport Name="DocumentsOfSet_Select" ReturnType="Collection(archiveModel.DocumentsOfSet_Select_Result)">
+      <Parameter Name="setOfDocs_idSet" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="Nomenclature_ForOrgAndYear" ReturnType="Collection(archiveModel.Nomenclature_ForOrgAndYear_Result)">
+      <Parameter Name="organization_idOrg" Mode="In" Type="Int32" />
+      <Parameter Name="yearNom" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="Nomenclature_Select" ReturnType="Collection(archiveModel.Nomenclature_Select_Result)" />
+    <FunctionImport Name="SelectEventLogbookForOrg" ReturnType="Collection(archiveModel.SelectEventLogbookForOrg_Result)">
+      <Parameter Name="organization_idOrg" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="SelectOrgForMainForm" ReturnType="Collection(archiveModel.SelectOrgForMainForm_Result)" />
+    <FunctionImport Name="SelectRenameForOrg" ReturnType="Collection(archiveModel.SelectRenameForOrg_Result)">
+      <Parameter Name="organization_idOrg" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="SetOfDocs_Select" ReturnType="Collection(archiveModel.SetOfDocs_Select_Result)" />
+  </EntityContainer>
+  <ComplexType Name="DocumentsOfSet_Select_Result">
+    <Property Type="Int32" Name="idDoc" Nullable="false" />
+    <Property Type="Int32" Name="numberDoc" Nullable="true" />
+    <Property Type="Int32" Name="idNom" Nullable="true" />
+    <Property Type="String" Name="actIndex" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="actHeading" Nullable="true" />
+    <Property Type="Int32" Name="sheetsCount" Nullable="true" />
+    <Property Type="DateTime" Name="dateDoc" Nullable="true" />
+    <Property Type="String" Name="nameDocType" Nullable="true" />
+    <Property Type="String" Name="filePath" Nullable="true" />
+    <Property Type="Int32" Name="setOfDocs_idSet" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="Nomenclature_ForOrgAndYear_Result">
+    <Property Type="Int32" Name="idNom" Nullable="false" />
+    <Property Type="Int32" Name="organization_idOrg" Nullable="false" />
+    <Property Type="String" Name="actIndex" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="actHeading" Nullable="true" />
+    <Property Type="Int32" Name="yearNom" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="Nomenclature_Select_Result">
+    <Property Type="Int32" Name="idNom" Nullable="false" />
+    <Property Type="String" Name="actIndex" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="actHeading" Nullable="true" />
+    <Property Type="Int32" Name="yearNom" Nullable="true" />
+    <Property Type="String" Name="nameOrg" Nullable="true" />
+    <Property Type="Int32" Name="organization_idOrg" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="SelectEventLogbookForOrg_Result">
+    <Property Type="Boolean" Name="done" Nullable="true" />
+    <Property Type="Int32" Name="idEvent_logbook" Nullable="false" />
+    <Property Type="Int32" Name="typeOfEvent_idTypeOfEvent" Nullable="false" />
+    <Property Type="String" Name="nameTypeOfEvent" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="organization_idOrg" Nullable="false" />
+    <Property Type="String" Name="nameOrg" Nullable="true" />
+    <Property Type="DateTime" Name="dateOfEvent" Nullable="false" />
+    <Property Type="String" Name="result" Nullable="false" />
+    <Property Type="String" Name="responsibleOfEvent" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="SelectOrgForMainForm_Result">
+    <Property Type="Int32" Name="idOrg" Nullable="false" />
+    <Property Type="String" Name="nameOrg" Nullable="true" />
+    <Property Type="String" Name="nameOwnForm" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="nameRecForm" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="minDateUD" Nullable="true" />
+    <Property Type="DateTime" Name="minDateLS" Nullable="true" />
+    <Property Type="DateTime" Name="maxDateUD" Nullable="true" />
+    <Property Type="DateTime" Name="maxDateLS" Nullable="true" />
+    <Property Type="Int32" Name="lastControl" Nullable="true" />
+    <Property Type="Boolean" Name="isSource" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="SelectRenameForOrg_Result">
+    <Property Type="Int32" Name="idNameOfOrganization" Nullable="false" />
+    <Property Type="Int32" Name="organization_idOrg" Nullable="false" />
+    <Property Type="String" Name="nameOrg" Nullable="true" />
+    <Property Type="String" Name="nameRenamed" Nullable="true" />
+    <Property Type="DateTime" Name="startDate" Nullable="false" />
+    <Property Type="DateTime" Name="endDate" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="SetOfDocs_Select_Result">
+    <Property Type="Int32" Name="idSet" Nullable="false" />
+    <Property Type="Int32" Name="numberSet" Nullable="true" />
+    <Property Type="String" Name="nameOfSet" Nullable="true" />
+    <Property Type="Int32" Name="categoryOfSet_idCatOfSet" Nullable="false" />
+    <Property Type="String" Name="nameCatOfSet" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="nameOrg" Nullable="true" />
+    <Property Type="DateTime" Name="startDate" Nullable="true" />
+    <Property Type="DateTime" Name="endDate" Nullable="true" />
+    <Property Type="String" Name="nameAccess" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="reasonOfClosedAccess" Nullable="true" />
+    <Property Type="Int32" Name="docCount" Nullable="true" />
+    <Property Type="Int32" Name="sheetsCount" Nullable="true" />
+  </ComplexType>
+</Schema>
